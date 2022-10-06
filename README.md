@@ -1,2 +1,2 @@
-# kickstarter-analysis
-Performing analysis on kickstarter data to uncover trends
+# **Kickstarter-Analysis**
+## Performing analysis on kickstarter data to uncover trends
