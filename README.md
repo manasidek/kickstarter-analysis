@@ -23,17 +23,19 @@ The date in ‘launched_at” column in the Kickstarter data was not in readable
 
 ## Results
 
-1. What are two conclusions you can draw about the Outcomes based on Launch Date?
+### Analysis conclusions for Outcomes based on Launch Date
 
--  Campaigns launched in the month of ‘May’ show a significant success rate compared to other months.
--  Campaigns launched in the month of ‘December’ show lowest success rate compared to other months. There are slightly more failed campaigns compared to successful ones.
+1. Campaigns launched in the month of ‘May’ show a significant success rate compared to other months.
+2. Campaigns launched in the month of ‘December’ show lowest success rate compared to other months. There are slightly more failed campaigns compared to successful ones.
 
-2. What can you conclude about the Outcomes based on Goals?
--	 The campaigns of goals of less than $5,000 and those between $35,000 and $45,000 have better success rate as compared to other ranges.
+### Analysis conclusions for Outcomes based on Goals
+1. The campaigns of goals less than $5,000 and those between $35,000 and $45,000 have better success rates as compared to other ranges.
+2. There are 2 successful campaigns with goals greater than $50,000, but there are no successful campaigns in the $45,000 to $50,000 range.
+3. There are higher number of failed campaigns compared to successful ones in the $25,000 to $35,000 range and above the $45,000 range.
 
-3. What are some limitations of this dataset?
--  Amounts in ‘goal’ and ‘pledged’ columns are formatted in USD but the ‘currency’ column shows other currencies such as GBP, EUR, AUD, etc.
+### Limitations of this dataset
+Amounts in the ‘goal’ and ‘pledged’ columns are formatted in USD but the ‘currency’ column shows other currencies such as GBP, EUR, AUD, etc.
 
-4. What are some other possible tables and/or graphs that we could create?
--  A column that shows duration of each campaign using the difference between ‘Date created conversion’ and ‘Date ended conversion’ columns. Then a table can be created to show percentage outcomes based on duration ranges.
--	 A table showing average goal amounts and percentage outcomes by ‘parent category’ can be created to understand performance of campaigns across categories.
+### Other possible tables and/or graphs that could be created
+1. A column that shows duration of each campaign using the difference between ‘Date created conversion’ and ‘Date ended conversion’ columns. Then a table can be created to show percentage outcomes based on duration ranges.
+2. A table showing average goal amounts and percentage outcomes by ‘parent category’ can be created to understand performance of campaigns across categories.
