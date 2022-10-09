@@ -8,6 +8,8 @@ The Kickstarter data available for analysis provided information about campaign 
 
 ## Analysis and Challenges
 
+The Kickstarter data and analysis performed is contained in the [Kickstarter_challenge](https://github.com/manasidek/kickstarter-analysis/blob/main/Kickstarter_challenge.zip) Excel file.
+
 ### Analysis of Outcomes Based on Launch Date
 After reviewing the Kickstarter data, a Years column was created to give a better understanding about the launch dates. Louise needed to visualize outcomes based on launch dates for ‘theater’ category, for which a pivot table was created to summarize outcomes of all “Theater” campaigns. A line chart was created based on the pivot table as shown in the image below.
 ![Theater Outcomes Based On Launch Date](https://github.com/manasidek/kickstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
