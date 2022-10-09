@@ -14,7 +14,7 @@ After reviewing the Kickstarter data, a Years column was created to give a bette
 
 ### Analysis of Outcomes Based on Goals
 For this analysis, Louise wanted the outcomes of the category ‘theater’ and subcategory ‘plays’ alongside the goals. Thus, a table was created with goals with ranges of $5000 intervals for different outcomes and percentage outcomes were calculated for each range. These percentages were visualized in a line chart as shown below.
-![Outcomes Based On Goal]()
+![Outcomes Based On Goal](https://github.com/manasidek/kickstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 The date in ‘launched_at” column in the Kickstarter data was not in readable format, so it needed to be extracted using conversion formula to an actual date, which is stored in the column named ‘Date created conversion’. This column was further used to create the ‘Years’ column.
